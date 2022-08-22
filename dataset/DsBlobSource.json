@@ -1,0 +1,21 @@
+{
+	"name": "DsBlobSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsBlobSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
