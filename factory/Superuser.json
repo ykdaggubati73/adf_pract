@@ -1,0 +1,9 @@
+{
+	"name": "Superuser",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1a58ddc-1691-4e16-9b86-cabdd21ada45",
+		"tenantId": "4027a76b-3a95-4cf7-9a63-a2384369bb32"
+	}
+}
