@@ -1,7 +1,0 @@
-{
-	"name": "SHIRT",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "Self Hosted Integration Runtime"
-	}
-}
