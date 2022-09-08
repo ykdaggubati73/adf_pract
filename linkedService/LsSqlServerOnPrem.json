@@ -1,0 +1,16 @@
+{
+	"name": "LsSqlServerOnPrem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=azsql1server1.database.windows.net;initial catalog=emp;user id=Superuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiN2Q2YmYzNC1hYzY0LTQwMWQtOGE4Ni1iZmMyZTRmZTQ3MzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIRT",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
