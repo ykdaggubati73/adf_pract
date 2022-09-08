@@ -1,0 +1,71 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsBlobSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "1.Tickets Analysis.xlsx",
+				"container": "metaact"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Project Name": {
+					"type": "string"
+				},
+				"Project Description": {
+					"type": "string"
+				},
+				"Project Type": {
+					"type": "string"
+				},
+				"Project Manager": {
+					"type": "string"
+				},
+				"Region": {
+					"type": "string"
+				},
+				"Department": {
+					"type": "string"
+				},
+				"Project Cost": {
+					"type": "string"
+				},
+				"Project Benefit": {
+					"type": "string"
+				},
+				"Complexity": {
+					"type": "string"
+				},
+				"Status": {
+					"type": "string"
+				},
+				"Completion%": {
+					"type": "string"
+				},
+				"Phase": {
+					"type": "string"
+				},
+				"Year": {
+					"type": "integer"
+				},
+				"Month": {
+					"type": "integer"
+				},
+				"Start Date": {
+					"type": "string"
+				},
+				"End Date": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
