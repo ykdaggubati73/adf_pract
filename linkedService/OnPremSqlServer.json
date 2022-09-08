@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=False;data source=azsql1server1.database.windows.net;initial catalog=emp;user id=superuser",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMzA0NDUyMy1lZjkxLTQ0MWUtOThmNS1iZmNhY2M1NDE1YWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=azsql1server1.database.windows.net;initial catalog=Joins;user id=superuser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1NDI5YWEzOS0wMTk1LTQyOWQtOTFmMy02YWFkZDNjMjc4OTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SelfHostedIRT",
