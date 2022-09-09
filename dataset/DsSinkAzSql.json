@@ -1,0 +1,24 @@
+{
+	"name": "DsSinkAzSql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsBlob_AzSql",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().FileName",
+				"type": "Expression"
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "DsMetaDataBlob_Sql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsLoadFilesBlob_SQl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "metaact"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
