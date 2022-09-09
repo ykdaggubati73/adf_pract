@@ -1,0 +1,24 @@
+{
+	"name": "DsSqlServEmpDbOnPrem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LsSqlServerOnPremEmpDb",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
+		}
+	}
+}
